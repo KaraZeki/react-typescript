@@ -1,4 +1,5 @@
 import "./App.css";
+import EventActions from "./components/EventActions";
 import Home from "./components/Home";
 import { Instructor } from "./components/Instructor";
 import { List } from "./components/List";
@@ -32,7 +33,8 @@ function App() {
 
         {/* <Instructor  instructorNameLastName={instructor}></Instructor> */}
         {/* <List instList={instructorList}></List> */}
-        <Request status={14554}></Request>
+        {/* <Request status={14554}></Request> */}
+        <EventActions></EventActions>
       </header>
     </div>
   );
